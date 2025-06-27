@@ -1,0 +1,8 @@
+enum DownloadStatus {
+  NOT_STARTED_YET,
+  DOWNLOADING,
+  DOWNLOADED,
+  PAUSED,
+  FAILED,
+  CANCELED,
+}
