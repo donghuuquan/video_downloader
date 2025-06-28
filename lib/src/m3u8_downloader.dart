@@ -6,9 +6,9 @@ import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hls_parser/flutter_hls_parser.dart';
 import 'package:path_provider/path_provider.dart';
-import 'package:video_downloader/base_downloader.dart';
-import 'package:video_downloader/download_status.dart';
-import 'package:video_downloader/downloaderi.dart';
+import 'package:video_downloader/src/base_downloader.dart';
+import 'package:video_downloader/src/download_status.dart';
+import 'package:video_downloader/src/downloaderi.dart';
 import 'package:path/path.dart' as p;
 
 class M3U8Downloader extends BaseDownloader implements Downloaderi {

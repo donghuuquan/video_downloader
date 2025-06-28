@@ -2,7 +2,7 @@ import 'dart:async';
 import 'dart:io';
 
 import 'package:dio/dio.dart';
-import 'package:video_downloader/download_status.dart';
+import 'package:video_downloader/src/download_status.dart';
 
 class BaseDownloader {
   int concurrentDownloads = 30;

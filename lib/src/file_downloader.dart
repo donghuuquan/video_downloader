@@ -5,10 +5,10 @@ import 'package:ffmpeg_kit_flutter_new/ffprobe_kit.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:path/path.dart' as p;
 import 'package:ffmpeg_kit_flutter_new/ffmpeg_kit.dart';
-import 'package:video_downloader/base_downloader.dart';
-import 'package:video_downloader/download_status.dart';
-import 'package:video_downloader/downloaderi.dart';
-import 'package:video_downloader/media_utils.dart';
+import 'package:video_downloader/src/base_downloader.dart';
+import 'package:video_downloader/src/download_status.dart';
+import 'package:video_downloader/src/downloaderi.dart';
+import 'package:video_downloader/src/media_utils.dart';
 
 class FileDownloader extends BaseDownloader implements Downloaderi {
   FileDownloader({

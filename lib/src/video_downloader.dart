@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:video_downloader/base_downloader.dart';
-import 'package:video_downloader/download_status.dart';
-import 'package:video_downloader/downloaderi.dart';
-import 'package:video_downloader/file_downloader.dart';
-import 'package:video_downloader/m3u8_downloader.dart';
+import 'package:video_downloader/src/base_downloader.dart';
+import 'package:video_downloader/src/download_status.dart';
+import 'package:video_downloader/src/downloaderi.dart';
+import 'package:video_downloader/src/file_downloader.dart';
+import 'package:video_downloader/src/m3u8_downloader.dart';
 
 class VideoDownloader extends BaseDownloader implements Downloaderi {
   VideoDownloader({
